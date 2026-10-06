@@ -1,0 +1,208 @@
+{
+  "fieldcard": "0.1.0",
+  "card": {
+    "fieldcard": "0.1.0",
+    "context": {
+      "date": "2026-10-06",
+      "season": "autumn",
+      "hemisphere": "northern",
+      "place": "Seoul Forest park, Seoul",
+      "habitat": "park",
+      "minutes": 40,
+      "sunrise": "06:30",
+      "sunset": "18:09",
+      "note": null,
+      "lat": 37.544,
+      "lon": 127.037
+    },
+    "title": "Seoul Autumn Walk",
+    "items": [
+      {
+        "n": 1,
+        "find": "Maple leaves turning brilliant crimson and gold on the branches.",
+        "why": "As chlorophyll breaks down in autumn, other pigments like carotenoids become visible, providing bright colour.",
+        "proof": "sketch"
+      },
+      {
+        "n": 2,
+        "find": "Patches of moss clinging damply to shaded, rough tree bark.",
+        "why": "Mosses thrive in moist, shaded environments, retaining moisture through dense, velvety leaf-like structures.",
+        "proof": "photo"
+      },
+      {
+        "n": 3,
+        "find": "How many small, dark brown acorn caps are visible on the ground?",
+        "why": "Acorns are the seeds of oak trees, designed to survive winter until germination conditions are right.",
+        "proof": "tally"
+      },
+      {
+        "n": 4,
+        "find": "How many small, brownish birds are visible moving in the canopy?",
+        "why": "These calls often serve as territorial warnings or communicate feeding locations to flock members.",
+        "proof": "tally"
+      },
+      {
+        "n": 5,
+        "find": "A patch of ground covered in crunchy, dry leaf litter, rustling underfoot.",
+        "why": "Decomposition of leaf litter is a vital process that returns nutrients to the soil for new growth.",
+        "proof": "sketch"
+      }
+    ],
+    "sit_spot": "Pause near a large, exposed root system and notice the texture of the earth around it for one full minute.",
+    "generated_by": {
+      "model": "gemma4:e4b",
+      "host": "http://127.0.0.1:11434",
+      "attempts": [
+        {
+          "attempt": 1,
+          "problems": [
+            "item 3 is a tally but does not say what to count (start it with 'How many' or 'Count')",
+            "item 4 is a tally but does not say what to count (start it with 'How many' or 'Count')"
+          ],
+          "model": "gemma4:e4b",
+          "seconds": 2.75,
+          "eval_tokens": 347,
+          "tokens_per_second": 130.4
+        },
+        {
+          "attempt": 2,
+          "problems": [],
+          "model": "gemma4:e4b",
+          "seconds": 1.35,
+          "eval_tokens": 275,
+          "tokens_per_second": 226.6
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "photo": "samples/walk/acorns-oak.jpg",
+      "file": "acorns-oak.jpg",
+      "kind": "photo",
+      "item": 0,
+      "confidence": 1.0,
+      "seen": "The photo shows two small, round objects covered in a fuzzy, light brown material, attached to thin, brown twigs.",
+      "reason": "The objects in the photo do not match any of the descriptions provided in the field card.",
+      "look_closer": "Examine the texture of the fuzzy covering to see if it has any distinct patterns or scales.",
+      "model": "gemma4:e4b",
+      "seconds": 1.49,
+      "eval_tokens": 105,
+      "tokens_per_second": 114.5,
+      "counted": false
+    },
+    {
+      "photo": "samples/walk/autumn-maple-leaves-ground.jpg",
+      "file": "autumn-maple-leaves-ground.jpg",
+      "kind": "photo",
+      "item": 5,
+      "confidence": 1.0,
+      "seen": "The image is filled with a dense layer of dry, brown, and tan fallen leaves.",
+      "reason": "The photo clearly depicts a ground cover made up of dry, fallen leaf litter.",
+      "look_closer": "Check the texture of the leaves to see if they are brittle or pliable when touched.",
+      "model": "gemma4:e4b",
+      "seconds": 1.2,
+      "eval_tokens": 95,
+      "tokens_per_second": 109.1,
+      "counted": true
+    },
+    {
+      "photo": "samples/walk/bracket-fungus-on-log.jpg",
+      "file": "bracket-fungus-on-log.jpg",
+      "kind": "photo",
+      "item": 0,
+      "confidence": 1.0,
+      "seen": "There are several light-colored, irregularly shaped fungi growing on the bark of a fallen log.",
+      "reason": "The photo shows fungi, but none of the card items describe fungi.",
+      "look_closer": "Examine the underside of the fungi to see if there are any gills or pores.",
+      "model": "gemma4:e4b",
+      "seconds": 1.1,
+      "eval_tokens": 94,
+      "tokens_per_second": 127.8,
+      "counted": false
+    },
+    {
+      "photo": "samples/walk/dandelion-seed-head.jpg",
+      "file": "dandelion-seed-head.jpg",
+      "kind": "photo",
+      "item": 0,
+      "confidence": 1.0,
+      "seen": "The photo shows a seed head with a fluffy white pappus attached to a dark, dried base.",
+      "reason": "The image shows a dandelion seed head, which does not match any of the listed items.",
+      "look_closer": "Check the surrounding area for any fallen leaves or bark to see if they match the descriptions in the card.",
+      "model": "gemma4:e4b",
+      "seconds": 1.24,
+      "eval_tokens": 103,
+      "tokens_per_second": 112.3,
+      "counted": false
+    },
+    {
+      "photo": "samples/walk/lichen-on-tree-bark.jpg",
+      "file": "lichen-on-tree-bark.jpg",
+      "kind": "photo",
+      "item": 2,
+      "confidence": 0.8,
+      "seen": "The image shows a close-up of tree bark heavily covered in light-colored, crusty growth.",
+      "reason": "The photo shows growth on tree bark, which aligns with the description of moss clinging to rough tree bark, although the growth appears more like lichen than moss.",
+      "look_closer": "Check the texture of the growth to determine if it is soft and green like moss or hard and crusty like lichen.",
+      "model": "gemma4:e4b",
+      "seconds": 1.3,
+      "eval_tokens": 120,
+      "tokens_per_second": 119.5,
+      "counted": true
+    },
+    {
+      "photo": "samples/walk/puddle-reflection-sky.jpg",
+      "file": "puddle-reflection-sky.jpg",
+      "kind": "photo",
+      "item": 0,
+      "confidence": 0.9,
+      "seen": "The image shows a dark, textured ground area meeting a shallow pool of water.",
+      "reason": "The photo shows wet, dark ground and water, which does not clearly depict any of the specific items listed on the field card.",
+      "look_closer": "Check the edges of the dark ground for any signs of fallen leaves or bark.",
+      "model": "gemma4:e4b",
+      "seconds": 1.17,
+      "eval_tokens": 102,
+      "tokens_per_second": 119.1,
+      "counted": false
+    },
+    {
+      "photo": "samples/walk/voice-note-birds.mp3",
+      "file": "voice-note-birds.mp3",
+      "kind": "voice",
+      "item": 4,
+      "confidence": 1.0,
+      "seen": "Okay, number four. I just counted seven little brown birds in the branches over the path. Sparrows I think. They keep dropping down to the grass and flying back up.",
+      "reason": "The note explicitly mentions counting seven little brown birds in the branches, which directly corresponds to item 4.",
+      "look_closer": "Next time, try to identify the specific species of sparrow by observing its beak and wing markings.",
+      "model": "gemma4:e4b",
+      "seconds": 1.04,
+      "eval_tokens": 120,
+      "tokens_per_second": 130.8,
+      "counted": true
+    },
+    {
+      "photo": "samples/walk/voice-note-maples.mp3",
+      "file": "voice-note-maples.mp3",
+      "kind": "voice",
+      "item": 1,
+      "confidence": 0.9,
+      "seen": "Number one. The maples by the pond are only half turned. The top of the tree is crimson and the bottom is still green.",
+      "reason": "The note describes the maple leaves being partially colored, which aligns with the description of brilliant crimson and gold.",
+      "look_closer": "Next time, try to note the specific colors of the leaves on the branches.",
+      "model": "gemma4:e4b",
+      "seconds": 1.0,
+      "eval_tokens": 109,
+      "tokens_per_second": 122.1,
+      "counted": true
+    }
+  ],
+  "found": {
+    "5": "autumn-maple-leaves-ground.jpg",
+    "4": "voice-note-birds.mp3",
+    "1": "voice-note-maples.mp3",
+    "2": "lichen-on-tree-bark.jpg"
+  },
+  "score": "4/5",
+  "model": "gemma4:e4b"
+}

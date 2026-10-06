@@ -1,0 +1,75 @@
+{
+  "fieldcard": "0.1.0",
+  "context": {
+    "date": "2026-10-06",
+    "season": "autumn",
+    "hemisphere": "northern",
+    "place": "Seoul Forest park, Seoul",
+    "habitat": "park",
+    "minutes": 40,
+    "sunrise": "06:30",
+    "sunset": "18:09",
+    "note": null,
+    "lat": 37.544,
+    "lon": 127.037
+  },
+  "title": "Seoul Autumn Walk",
+  "items": [
+    {
+      "n": 1,
+      "find": "Maple leaves turning brilliant crimson and gold on the branches.",
+      "why": "As chlorophyll breaks down in autumn, other pigments like carotenoids become visible, providing bright colour.",
+      "proof": "sketch"
+    },
+    {
+      "n": 2,
+      "find": "Patches of moss clinging damply to shaded, rough tree bark.",
+      "why": "Mosses thrive in moist, shaded environments, retaining moisture through dense, velvety leaf-like structures.",
+      "proof": "photo"
+    },
+    {
+      "n": 3,
+      "find": "How many small, dark brown acorn caps are visible on the ground?",
+      "why": "Acorns are the seeds of oak trees, designed to survive winter until germination conditions are right.",
+      "proof": "tally"
+    },
+    {
+      "n": 4,
+      "find": "How many small, brownish birds are visible moving in the canopy?",
+      "why": "These calls often serve as territorial warnings or communicate feeding locations to flock members.",
+      "proof": "tally"
+    },
+    {
+      "n": 5,
+      "find": "A patch of ground covered in crunchy, dry leaf litter, rustling underfoot.",
+      "why": "Decomposition of leaf litter is a vital process that returns nutrients to the soil for new growth.",
+      "proof": "sketch"
+    }
+  ],
+  "sit_spot": "Pause near a large, exposed root system and notice the texture of the earth around it for one full minute.",
+  "generated_by": {
+    "model": "gemma4:e4b",
+    "host": "http://127.0.0.1:11434",
+    "attempts": [
+      {
+        "attempt": 1,
+        "problems": [
+          "item 3 is a tally but does not say what to count (start it with 'How many' or 'Count')",
+          "item 4 is a tally but does not say what to count (start it with 'How many' or 'Count')"
+        ],
+        "model": "gemma4:e4b",
+        "seconds": 2.75,
+        "eval_tokens": 347,
+        "tokens_per_second": 130.4
+      },
+      {
+        "attempt": 2,
+        "problems": [],
+        "model": "gemma4:e4b",
+        "seconds": 1.35,
+        "eval_tokens": 275,
+        "tokens_per_second": 226.6
+      }
+    ]
+  }
+}
